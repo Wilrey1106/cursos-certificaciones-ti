@@ -1,4 +1,12 @@
 # Recursos y Cursos de Tecnologías de la Información
+<p align="left">
+  <img src="https://img.shields.io/badge/License-MIT-green.svg" alt="License MIT" />
+  <img src="https://img.shields.io/badge/Cisco-Networking_Academy-blue.svg?logo=cisco" alt="Cisco NetAcad" />
+  <img src="https://img.shields.io/badge/Certification-CCNA_%7C_CyberOps-1ba0d7.svg" alt="Certificaciones" />
+  <img src="https://img.shields.io/badge/Security-Fortinet_%7C_Palo_Alto-red.svg" alt="Security" />
+  <img src="https://img.shields.io/badge/OS-Linux_Essentials-orange.svg?logo=linux" alt="Linux" />
+  <img src="https://img.shields.io/badge/Status-Active_2026-brightgreen.svg" alt="Estado" />
+</p>
 
 Bienvenido al repositorio central de formación, certificaciones y desarrollo técnico en Redes, Ciberseguridad, Programación, Administración de Sistemas y Soporte TI.
 
