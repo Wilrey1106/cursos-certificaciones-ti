@@ -1,0 +1,19 @@
+name: Check Markdown Links
+
+on:
+  schedule:
+    - cron: '0 0 * * 1' # Ejecuta una revision automatica todos los lunes a medianoche
+  workflow_dispatch:     # Agrega un boton en GitHub para ejecutarlo manualmente cuando quieras
+
+jobs:
+  link-check:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout del repositorio
+        uses: actions/checkout@v4
+
+      - name: Verificar enlaces caidos con Lychee
+        uses: lycheeverse/lychee-action@v1
+        with:
+          args: --verbose --no-progress './**/*.md'
+          fail: false
