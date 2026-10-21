@@ -20,7 +20,7 @@ El repositorio se divide en módulos independientes accesibles tanto en este dir
 
 ---
 
-## ⚡ Promociones y Convocatorias Activas
+##  Promociones y Convocatorias Activas
 
 > **Aviso Importante:** Los siguientes módulos de Cisco cuentan con convocatoria promocional activa (*Oct - Jan 26*):
 > - **CCNA 1:** Introduction to Networks (ITN)
@@ -30,17 +30,4 @@ El repositorio se divide en módulos independientes accesibles tanto en este dir
 
 ---
 
-## 🚀 Cómo sincronizar este repositorio con tu GitHub
 
-Si descargaste este paquete y deseas subirlo a un repositorio nuevo en tu cuenta de GitHub:
-
-1. Crea un repositorio vacío en tu cuenta de GitHub (ejemplo: `cursos-certificaciones-ti`).
-2. En la terminal de tu máquina, dentro de esta carpeta, ejecuta:
-   ```bash
-   git remote add origin https://github.com/TU_USUARIO/cursos-certificaciones-ti.git
-   git branch -M main
-   git push -u origin main
-   git push origin --all
-   git push origin --tags
-   ```
-   *(También puedes usar el script automatizado `./push_to_github.sh TU_USUARIO cursos-certificaciones-ti` en Linux/macOS o `push_to_github.bat` en Windows).*
