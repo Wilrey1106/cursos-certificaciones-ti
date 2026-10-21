@@ -1,0 +1,11 @@
+# Sistema operativo y temporales
+.DS_Store
+Thumbs.db
+*.tmp
+*.log
+
+# Entornos virtuales y dependencias
+.venv/
+venv/
+__pycache__/
+node_modules/
